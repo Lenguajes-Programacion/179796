@@ -1,0 +1,11 @@
+C:\Users\alumno\Documents\GitHub\179796\Clase_1\Practica_uno\Practica_uno\bin\Debug\netcoreapp3.0\Practica_uno.exe
+C:\Users\alumno\Documents\GitHub\179796\Clase_1\Practica_uno\Practica_uno\bin\Debug\netcoreapp3.0\Practica_uno.deps.json
+C:\Users\alumno\Documents\GitHub\179796\Clase_1\Practica_uno\Practica_uno\bin\Debug\netcoreapp3.0\Practica_uno.runtimeconfig.json
+C:\Users\alumno\Documents\GitHub\179796\Clase_1\Practica_uno\Practica_uno\bin\Debug\netcoreapp3.0\Practica_uno.runtimeconfig.dev.json
+C:\Users\alumno\Documents\GitHub\179796\Clase_1\Practica_uno\Practica_uno\bin\Debug\netcoreapp3.0\Practica_uno.dll
+C:\Users\alumno\Documents\GitHub\179796\Clase_1\Practica_uno\Practica_uno\bin\Debug\netcoreapp3.0\Practica_uno.pdb
+C:\Users\alumno\Documents\GitHub\179796\Clase_1\Practica_uno\Practica_uno\obj\Debug\netcoreapp3.0\Practica_uno.csprojAssemblyReference.cache
+C:\Users\alumno\Documents\GitHub\179796\Clase_1\Practica_uno\Practica_uno\obj\Debug\netcoreapp3.0\Practica_uno.AssemblyInfoInputs.cache
+C:\Users\alumno\Documents\GitHub\179796\Clase_1\Practica_uno\Practica_uno\obj\Debug\netcoreapp3.0\Practica_uno.AssemblyInfo.cs
+C:\Users\alumno\Documents\GitHub\179796\Clase_1\Practica_uno\Practica_uno\obj\Debug\netcoreapp3.0\Practica_uno.dll
+C:\Users\alumno\Documents\GitHub\179796\Clase_1\Practica_uno\Practica_uno\obj\Debug\netcoreapp3.0\Practica_uno.pdb
