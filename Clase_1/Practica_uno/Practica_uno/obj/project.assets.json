@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alumno\\Documents\\GitHub\\179796\\Clase_1\\Practica_uno\\Practica_uno\\Practica_uno.csproj",
+      "projectUniqueName": "C:\\Users\\alumno\\source\\repos\\179796\\179796\\Clase_1\\Practica_uno\\Practica_uno\\Practica_uno.csproj",
       "projectName": "Practica_uno",
-      "projectPath": "C:\\Users\\alumno\\Documents\\GitHub\\179796\\Clase_1\\Practica_uno\\Practica_uno\\Practica_uno.csproj",
+      "projectPath": "C:\\Users\\alumno\\source\\repos\\179796\\179796\\Clase_1\\Practica_uno\\Practica_uno\\Practica_uno.csproj",
       "packagesPath": "C:\\Users\\alumno\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alumno\\Documents\\GitHub\\179796\\Clase_1\\Practica_uno\\Practica_uno\\obj\\",
+      "outputPath": "C:\\Users\\alumno\\source\\repos\\179796\\179796\\Clase_1\\Practica_uno\\Practica_uno\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
