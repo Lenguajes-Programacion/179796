@@ -8,6 +8,12 @@ namespace Calculadora
         {
             string continuar;
             int operacion;
+            int resultado;
+            int resultado2;
+            int continuar1;
+            int continuar2;
+            int Valor1;
+            int Valor2;
             do
             {
                 Console.WriteLine("Escriba el numero de la operacion que gustes realizar:");
@@ -16,7 +22,7 @@ namespace Calculadora
                 Console.WriteLine("2. Restar");
                 Console.WriteLine("3. Multiplicar");
                 Console.WriteLine("4. Dividir");
-                Console.WriteLine("5. ");
+                Console.WriteLine("5. Memoria");
                  
                 operacion = int.Parse(Console.ReadLine());
 
@@ -48,9 +54,16 @@ namespace Calculadora
             {
                 case 1:
                     {
-                        Console.WriteLine("SUMAR");
+                        Console.WriteLine("SUMA");
                         Console.WriteLine("");
                         CalcularRespuesta(operacion);
+                        Console.WriteLine("Desea utilizar el resultado para otra operacion? si/no");
+                        continuar2 = Console.ReadLine();
+                        _ = continuar2 == "si";
+                        Console.WriteLine("El resultado anterior es:" + resultado + "\n");
+                        Console.WriteLine("Agregue nuevo dato para sumar");
+                        resultado2 = resultado + resultado2;
+                        Console.WriteLine("El resultado es:" + resultado + "\n");
                         break;
                     }
 
@@ -59,6 +72,13 @@ namespace Calculadora
                         Console.WriteLine("RESTAR");
                         Console.WriteLine("");
                         CalcularRespuesta(operacion);
+                        Console.WriteLine("Desea utilizar el resultado para otra operacion? si/no");
+                        continuar2 = Console.ReadLine();
+                        _ = continuar2 == "si";
+                        Console.WriteLine("El resultado anterior es:" + resultado + "\n");
+                        Console.WriteLine("Agregue nuevo dato para sumar");
+                        resultado2 = resultado - resultado2;
+                        Console.WriteLine("El resultado es:" + resultado + "\n");
                         break;
                     }
                 case 3:
@@ -66,6 +86,13 @@ namespace Calculadora
                         Console.WriteLine("MULTIPLICAR");
                         Console.WriteLine("");
                         CalcularRespuesta(operacion);
+                        Console.WriteLine("Desea utilizar el resultado para otra operacion? si/no");
+                        continuar2 = Console.ReadLine();
+                        _ = continuar2 == "si";
+                        Console.WriteLine("El resultado anterior es:" + resultado + "\n");
+                        Console.WriteLine("Agregue nuevo dato para sumar");
+                        resultado2 = resultado * resultado2;
+                        Console.WriteLine("El resultado es:" + resultado + "\n");
                         break;
                     }
                 case 4:
@@ -73,6 +100,13 @@ namespace Calculadora
                         Console.WriteLine("DIVIDIR");
                         Console.WriteLine("");
                         CalcularRespuesta(operacion);
+                        Console.WriteLine("Desea utilizar el resultado para otra operacion? si/no");
+                        continuar2 = Console.ReadLine();
+                        _ = continuar2 == "si";
+                        Console.WriteLine("El resultado anterior es:" + resultado + "\n");
+                        Console.WriteLine("Agregue nuevo dato para sumar");
+                        resultado2 = resultado / resultado2;
+                        Console.WriteLine("El resultado es:" + resultado + "\n");
                         break;
                     }
 
@@ -87,7 +121,7 @@ namespace Calculadora
         {
             Console.WriteLine("Escribe el primer numero: ");
             double numero1 = double.Parse(Console.ReadLine());
-            Console.WriteLine("Escribe el segundo numero: "),
+            Console.WriteLine("Escribe el segundo numero: ");
             double numero2 = double.Parse(Console.ReadLine());
 
             if(operacion == 1)

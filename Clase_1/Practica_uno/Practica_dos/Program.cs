@@ -16,7 +16,7 @@ namespace Practica_dos
                 Console.WriteLine("2. Restar");
                 Console.WriteLine("3. Multiplicar");
                 Console.WriteLine("4. Dividir");
-                Console.WriteLine("5. ");
+                
                  
                 operacion = int.Parse(Console.ReadLine());
 

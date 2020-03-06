@@ -9,3 +9,14 @@ C:\Users\alumno\source\repos\179796\179796\Clase_1\Practica_uno\Practica_dos\bin
 C:\Users\alumno\source\repos\179796\179796\Clase_1\Practica_uno\Practica_dos\bin\Debug\netcoreapp3.0\Practica_dos.pdb
 C:\Users\alumno\source\repos\179796\179796\Clase_1\Practica_uno\Practica_dos\obj\Debug\netcoreapp3.0\Practica_dos.dll
 C:\Users\alumno\source\repos\179796\179796\Clase_1\Practica_uno\Practica_dos\obj\Debug\netcoreapp3.0\Practica_dos.pdb
+C:\Users\giova\Source\Repos\179796\Clase_1\Practica_uno\Practica_dos\bin\Debug\netcoreapp3.0\Practica_dos.exe
+C:\Users\giova\Source\Repos\179796\Clase_1\Practica_uno\Practica_dos\bin\Debug\netcoreapp3.0\Practica_dos.deps.json
+C:\Users\giova\Source\Repos\179796\Clase_1\Practica_uno\Practica_dos\bin\Debug\netcoreapp3.0\Practica_dos.runtimeconfig.json
+C:\Users\giova\Source\Repos\179796\Clase_1\Practica_uno\Practica_dos\bin\Debug\netcoreapp3.0\Practica_dos.runtimeconfig.dev.json
+C:\Users\giova\Source\Repos\179796\Clase_1\Practica_uno\Practica_dos\bin\Debug\netcoreapp3.0\Practica_dos.dll
+C:\Users\giova\Source\Repos\179796\Clase_1\Practica_uno\Practica_dos\bin\Debug\netcoreapp3.0\Practica_dos.pdb
+C:\Users\giova\Source\Repos\179796\Clase_1\Practica_uno\Practica_dos\obj\Debug\netcoreapp3.0\Practica_dos.csprojAssemblyReference.cache
+C:\Users\giova\Source\Repos\179796\Clase_1\Practica_uno\Practica_dos\obj\Debug\netcoreapp3.0\Practica_dos.AssemblyInfoInputs.cache
+C:\Users\giova\Source\Repos\179796\Clase_1\Practica_uno\Practica_dos\obj\Debug\netcoreapp3.0\Practica_dos.AssemblyInfo.cs
+C:\Users\giova\Source\Repos\179796\Clase_1\Practica_uno\Practica_dos\obj\Debug\netcoreapp3.0\Practica_dos.dll
+C:\Users\giova\Source\Repos\179796\Clase_1\Practica_uno\Practica_dos\obj\Debug\netcoreapp3.0\Practica_dos.pdb
