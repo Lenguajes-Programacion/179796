@@ -14,7 +14,7 @@ namespace Calculadora
 
         {
             Memoria memoria = new Memoria();
-            bool close_app = true;
+            bool cerrar = true;
             //Variables
             
             int resultado = 0;
@@ -26,7 +26,7 @@ namespace Calculadora
             string opcion = "";
 
 
-            while (close_app) { 
+            while (cerrar) { 
                 Console.WriteLine("Escriba la opcion de operacion que guste realizar:");
 
                 Console.WriteLine("(+) Sumar");
@@ -133,7 +133,7 @@ namespace Calculadora
                     case "e":
                         Console.WriteLine("--------------------\n");
                         Console.WriteLine("Cerrando Calculadora\n");
-                        close_app = false;
+                        cerrar = false;
                         break;
 
                     default:
