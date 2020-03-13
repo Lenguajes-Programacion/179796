@@ -9,3 +9,5 @@ C:\Users\giova\Source\Repos\179796\Clase_1\Practica_dos\Practica_dos\bin\Debug\n
 C:\Users\giova\Source\Repos\179796\Clase_1\Practica_dos\Practica_dos\bin\Debug\netcoreapp3.1\Practica_dos.pdb
 C:\Users\giova\Source\Repos\179796\Clase_1\Practica_dos\Practica_dos\obj\Debug\netcoreapp3.1\Practica_dos.dll
 C:\Users\giova\Source\Repos\179796\Clase_1\Practica_dos\Practica_dos\obj\Debug\netcoreapp3.1\Practica_dos.pdb
+C:\Users\giova\Source\Repos\179796\Clase_1\Practica_dos\Practica_dos\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\giova\Source\Repos\179796\Clase_1\Practica_dos\Practica_dos\obj\Debug\netcoreapp3.1\Practica_dos.csproj.CopyComplete

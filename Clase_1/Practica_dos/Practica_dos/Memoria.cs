@@ -116,8 +116,8 @@ namespace Calculadora
         }
 
 
-        //public void multidimensional()
-        static void Main()
+        
+        public void multidimensional()
         {
             bool salir = false;
             while (!salir)

@@ -10,160 +10,141 @@ namespace Calculadora
 {
     class Program
     {
-        //static void Main(string[] args)
-        static void G(string[] args)
+        static void Main(string[] args)
+
         {
             Memoria memoria = new Memoria();
             bool close_app = true;
             //Variables
-            string operacion;
-            string resultado;
-            string resultado1;
-            string resultado2;
-            int cantidad1;
-            int cantidad2;
-            string continuar;
-            string continuar2;
-            string opcion;
+            
+            int resultado = 0;
+            int resultado1 = 0;
+            int resultado2 = 0;
+            int cantidad1 = 0;
+            int cantidad2 = 0;
+            string continuar2 = "";
+            string opcion = "";
 
 
+            while (close_app) { 
+                Console.WriteLine("Escriba la opcion de operacion que guste realizar:");
 
-            Console.WriteLine("Escriba la opcion de operacion que guste realizar:");
-
-            Console.WriteLine("(+) Sumar");
-            Console.WriteLine("(-) Restar");
-            Console.WriteLine("(*) Multiplicar");
-            Console.WriteLine("(/) Dividir");
-            Console.WriteLine("(m) Memoria");
-            Console.WriteLine("(mr) Borrar Memoria");
-            Console.WriteLine("e Para salir \n");
-            opcion = Console.ReadLine();
-
-
-            Console.WriteLine("Ingrese la primera cantidad");
-            cantidad1 = Console.ReadLine();
-            Console.WriteLine("Ingrese la segunda cantidad");
-            cantidad2 = Console.ReadLine();
+                Console.WriteLine("(+) Sumar");
+                Console.WriteLine("(-) Restar");
+                Console.WriteLine("(*) Multiplicar");
+                Console.WriteLine("(/) Dividir");
+                Console.WriteLine("(m) Memoria");
+                Console.WriteLine("(mr) Borrar Memoria");
+                Console.WriteLine("(e) Para salir \n");
+                opcion = Console.ReadLine();
 
 
-            switch (operacion)
-            {
-
-                case "+":
-                    Console.WriteLine("El resultado de la suma es:");
-                    resultado = cantidad1 + cantidad2;
-                    Console.WriteLine("resultado {0} + {1} = {2}", cantidad1, cantidad2, resultado);
-                    Console.WriteLine("¿Desea utilizar el resultado para otra operacion? si/no");
-                    continuar2 = Console.ReadLine();
-                    /*_ = continuar2 == "si";*/
-                    Console.WriteLine("El resultado anterior es:" + resultado + "\n");
-                    Console.WriteLine("Agregue un nuevo dato para sumar");
-                    resultado1 = (Console.ReadLine());
-                    resultado2 = resultado + resultado1;
-                    Console.WriteLine("El resultado es:" + resultado2 + "\n");
-                    String o = cantidad1 + "+" + cantidad2;
-                    MemoriaData data = new MemoriaData(DateTime.Now.ToString(), o, resultado.ToString());
-                    memoria.GuardarMemoria(data);
-                    resultado = 0;
-                    break;
-
-                case "-":
-                    Console.WriteLine("El resultado de la resta es:");
-                    resultado = cantidad1 - cantidad2;
-                    Console.WriteLine("{0} - {1} = {2}", cantidad1, cantidad2, resultado);
-                    Console.WriteLine("¿Desea utilizar el resultado para otra operacion? si/no");
-                    continuar2 = Console.ReadLine();
-                    _ = continuar2 == "si";
-                    Console.WriteLine("El resultado anterior es:" + resultado + "\n");
-                    Console.WriteLine("Agregue un nuevo dato para restar");
-                    resultado1 = (Console.ReadLine());
-                    resultado2 = resultado - resultado1;
-                    Console.WriteLine("El resultado es:" + resultado2 + "\n");
-                    break;
-
-                case "*":
-                    Console.WriteLine("El resultado de la suma es:");
-                    resultado = cantidad1 * cantidad2;
-                    Console.WriteLine("{0} * {1} = {2}", cantidad1, cantidad2, resultado);
-                    Console.WriteLine("¿Desea utilizar el resultado para otra operacion? si/no");
-                    continuar2 = Console.ReadLine();
-                    _ = continuar2 == "si";
-                    Console.WriteLine("El resultado anterior es:" + resultado + "\n");
-                    Console.WriteLine("Agregue un nuevo dato para sumar");
-                    resultado1 = (Console.ReadLine());
-                    resultado2 = resultado * resultado1;
-                    Console.WriteLine("El resultado es:" + resultado2 + "\n");
-                    break;
-
-                case "/":
-                    Console.WriteLine("El resultado de la suma es:");
-                    resultado = cantidad1 / cantidad2;
-                    Console.WriteLine("{0} / {1} = {2}", cantidad1, cantidad2, resultado);
-                    Console.WriteLine("¿Desea utilizar el resultado para otra operacion? si/no");
-                    continuar2 = Console.ReadLine();
-                    _ = continuar2 == "si";
-                    Console.WriteLine("El resultado anterior es:" + resultado + "\n");
-                    Console.WriteLine("Agregue un nuevo dato para sumar");
-                    resultado1 = (Console.ReadLine());
-                    resultado2 = int.Parse;
-                    resultado2 = resultado / resultado1;
-                    Console.WriteLine("El resultado es:" + resultado2 + "\n");
-                    break;
+                Console.WriteLine("Ingrese la primera cantidad");
+                cantidad1 = int.Parse(Console.ReadLine());
+                Console.WriteLine("Ingrese la segunda cantidad");
+                cantidad2 = int.Parse(Console.ReadLine());
 
 
-                case "m":
-                    Console.WriteLine("Accediendo a Memoria \n");
-                    Console.WriteLine("-----------------\n");
-                    memoria.multidimensional();
-                    String key = Console.ReadLine();
-                    //Console.WriteLine(data.ToString());
-                    // Elegir la opcion de resultado en nuestra memoria 
-                    // y reutilizarla en alguna operación.
-                    // 1. Crear metodo que nos regrese el resultado seleccionado.
-                    resultado = memoria.GetMemoriaData(key);
-                    // 2. Utilizar el resultado en una nueva operación.
-                    Console.WriteLine(resultado);
-                    // 3. Guardar la nueva operación en nuestra db.json.
-                    // memoria.GuardarMemoria();
-                    break;
+                switch (opcion)
+                {
 
-                case "mr":
-                    Console.WriteLine("Memoria Temporal Reiniciada! \n");
-                    resultado = 0;
-                    break;
+                    case "+":
+                        Console.WriteLine("El resultado de la suma es:");
+                        resultado = cantidad1 + cantidad2;
+                        Console.WriteLine("resultado {0} + {1} = {2}", cantidad1, cantidad2, resultado);
+                        Console.WriteLine("¿Desea utilizar el resultado para otra operacion? si/no");
+                        continuar2 = Console.ReadLine();
+                        /*_ = continuar2 == "si";*/
+                        Console.WriteLine("El resultado anterior es:" + resultado + "\n");
+                        Console.WriteLine("Agregue un nuevo dato para sumar");
+                        resultado1 = int.Parse(Console.ReadLine());
+                        resultado2 = resultado + resultado1;
+                        Console.WriteLine("El resultado es:" + resultado2 + "\n");
+                        String o = cantidad1 + "+" + cantidad2;
+                        MemoriaData data = new MemoriaData(DateTime.Now.ToString(), o, resultado.ToString());
+                        memoria.GuardarMemoria(data);
+                        resultado = 0;
+                        break;
 
-                case "e":
-                    Console.WriteLine("-----------------\n");
-                    Console.WriteLine("Cerrando CalculApp! \n");
-                    close_app = false;
-                    break;
+                    case "-":
+                        Console.WriteLine("El resultado de la resta es:");
+                        resultado = cantidad1 - cantidad2;
+                        Console.WriteLine("{0} - {1} = {2}", cantidad1, cantidad2, resultado);
+                        Console.WriteLine("¿Desea utilizar el resultado para otra operacion? si/no");
+                        continuar2 = Console.ReadLine();
+                        _ = continuar2 == "si";
+                        Console.WriteLine("El resultado anterior es:" + resultado + "\n");
+                        Console.WriteLine("Agregue un nuevo dato para restar");
+                        resultado1 = int.Parse(Console.ReadLine());
+                        resultado2 = resultado - resultado1;
+                        Console.WriteLine("El resultado es:" + resultado2 + "\n");
+                        break;
 
-                default:
-                    Console.WriteLine("Opción desconocida: {0}, intenta de nuevo \n", opcion);
-                    break;
+                    case "*":
+                        Console.WriteLine("El resultado de la suma es:");
+                        resultado = cantidad1 * cantidad2;
+                        Console.WriteLine("{0} * {1} = {2}", cantidad1, cantidad2, resultado);
+                        Console.WriteLine("¿Desea utilizar el resultado para otra operacion? si/no");
+                        continuar2 = Console.ReadLine();
+                        _ = continuar2 == "si";
+                        Console.WriteLine("El resultado anterior es:" + resultado + "\n");
+                        Console.WriteLine("Agregue un nuevo dato para sumar");
+                        resultado1 = int.Parse(Console.ReadLine());
+                        resultado2 = resultado * resultado1;
+                        Console.WriteLine("El resultado es:" + resultado2 + "\n");
+                        break;
 
-            }
+                    case "/":
+                        Console.WriteLine("El resultado de la suma es:");
+                        resultado = cantidad1 / cantidad2;
+                        Console.WriteLine("{0} / {1} = {2}", cantidad1, cantidad2, resultado);
+                        Console.WriteLine("¿Desea utilizar el resultado para otra operacion? si/no");
+                        continuar2 = Console.ReadLine();
+                        _ = continuar2 == "si";
+                        Console.WriteLine("El resultado anterior es:" + resultado + "\n");
+                        Console.WriteLine("Agregue un nuevo dato para sumar");
+                        resultado1 = int.Parse(Console.ReadLine());
+                        resultado2 = resultado / resultado1;
+                        Console.WriteLine("El resultado es:" + resultado2 + "\n");
+                        break;
 
 
-            Console.WriteLine("******************");
-                 Console.WriteLine("¿Desea realizar otra operacion?");
-                 Console.WriteLine("1. Si");
-                 Console.WriteLine("2. No");
+                    case "m":
+                        Console.WriteLine("Accediendo a Memoria \n");
+                        Console.WriteLine("-----------------\n");
+                        memoria.multidimensional();
+                        String key = Console.ReadLine();
+                        //Console.WriteLine(data.ToString());
+                        // Elegir la opcion de resultado en nuestra memoria 
+                        // y reutilizarla en alguna operación.
+                        // 1. Crear metodo que nos regrese el resultado seleccionado.
+                        resultado = memoria.GetMemoriaData(key);
+                        // 2. Utilizar el resultado en una nueva operación.
+                        Console.WriteLine(resultado);
+                        // 3. Guardar la nueva operación en nuestra db.json.
+                        // memoria.GuardarMemoria();
+                        break;
 
-                 continuar = Console.ReadLine();
+                    case "mr":
+                        Console.WriteLine("Memoria Temporal Reiniciada! \n");
+                        resultado = 0;
+                        break;
 
-                 if (continuar == "1")
-                 {
-                     Console.Clear();
-                 }
+                    case "e":
+                        Console.WriteLine("--------------------\n");
+                        Console.WriteLine("Cerrando Calculadora\n");
+                        close_app = false;
+                        break;
 
-
-
-             Console.WriteLine("Presione una tecla para salir");
-             Console.ReadKey();
-
-         }
+                    default:
+                        Console.WriteLine("Opción desconocida: {0}, intenta de nuevo \n", opcion);
+                        break;
 
                 }
+
             }
+        }
+
+    }
+}
         
